@@ -13,6 +13,8 @@ int runTime = 1; // in minutes
 int amplitude;
 int startSwitchState =0;
 int x;
+int delayTime;
+int delayInterval;
 void setup() {
 Serial.begin(9600); //Open Serial connection for debugging
 pinMode(STP, OUTPUT);
